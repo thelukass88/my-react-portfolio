@@ -1,8 +1,20 @@
-# React + Vite
+# build-react-portfolio
+Building a Portfolio Website with React and ButterCMS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Important Notice
+This project was created as an example use case of ButterCMS in conjunction with a blog article, [https://buttercms.com/blog/build-a-portfolio-website-with-react/](https://buttercms.com/blog/build-a-portfolio-website-with-react/), and will not be actively maintained. 
 
-Currently, two official plugins are available:
+If you’re interested in exploring the best, most up-to-date way to integrate Butter into frameworks like React, you can check out the following resources:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Starter Projects
+
+The following turn-key starters are fully integrated with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
+- [React Starter](https://buttercms.com/starters/react-starter-project/)
+- [Angular Starter](https://buttercms.com/starters/angular-starter-project/)
+- [Vue.js Starter](https://buttercms.com/starters/vuejs-starter-project/)
+- Or see a list of all our [currently-maintained starters](https://buttercms.com/starters/). (Over a dozen and counting!)
+
+### Other Resources
+- Check out the [official ButterCMS Docs](https://buttercms.com/docs/)
+- Check out the [official ButterCMS API docs](https://buttercms.com/docs/api/)
+
