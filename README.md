@@ -6,6 +6,10 @@ This project was created as an example use case of ButterCMS in conjunction with
 
 If you’re interested in exploring the best, most up-to-date way to integrate Butter into frameworks like React, you can check out the following resources:
 
+## Deployed Link:
+
+l-holliday-portfolio.netlify.app
+
 ### Starter Projects
 
 The following turn-key starters are fully integrated with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
