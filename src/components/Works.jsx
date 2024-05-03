@@ -2,6 +2,10 @@ import React from 'react';
 import code from '../assets/code2.png';
 import shakespeers from '../assets/shakespeers.png';
 import thingstodo from '../assets/thingstodo.png';
+import passwordgen from '../assets/8characters.png';
+import codequiz from '../assets/question-examples-1.png';
+import readmegen from '../assets/readmegen.png';
+import dayplanner from '../assets/plannertop.png';
 
 const Works = () => {
   return (
@@ -27,12 +31,12 @@ const Works = () => {
               </span>
               <p className='text-center'>A web application designed to aid students with revision for their English GCSE or A-Level exams.</p>
               <div className='pt-8 text-center'>
-                <a href='https://shakespeers.netlify.app'>
+                <a href='https://shakespeers.netlify.app' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Giftyaning/Shakespeers'>
+                <a href='https://github.com/Giftyaning/Shakespeers' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -51,12 +55,12 @@ const Works = () => {
               </span>
               <p className='text-center'>A web application built with the Ticket Master API - designed to allow users to search for current events in a chosen city.</p>
               <div className='pt-8 text-center'>
-                <a href='https://sarenne89.github.io/TTDIMC/'>
+                <a href='https://sarenne89.github.io/TTDIMC/' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/sarenne89/TTDIMC'>
+                <a href='https://github.com/sarenne89/TTDIMC' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -65,22 +69,22 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${dayplanner})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                Work Day Planner
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>A simple planner which uses both JQuery and DaysJS, as well as APIs, that allows users to save an update events on a calendar that updates daily.</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/thelukass88/work-day-planner' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://thelukass88.github.io/work-day-planner/' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -89,22 +93,48 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${readmegen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                README Generator
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>Command line interface program that 
+                                        inquires and compiles information into a 
+                                        comprehensive Readme. NPM: Inquirer (8.0) | NodeJS |</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://github.com/thelukass88/READMEgenerator/assets/128861516/5eb875aa-43a1-4f83-a693-70d54c21d753' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/thelukass88/READMEgenerator'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' target="blank">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${codequiz})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Coding Quiz
+              </span>
+              <p className='text-center'>A Quiz game that uses Javascript to dynamically update the questions on a single page. This project displayed use of local storage.</p>
+              <div className='pt-8 text-center'>
+                <a href='https://thelukass88.github.io/Coding-Quiz/' target="blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/thelukass88/Coding-Quiz' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -113,46 +143,22 @@ const Works = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${passwordgen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
+                Password Generator
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center'>A simple application that uses vanilla Javascript funcstion and variables to generate a random password. This was also my first time with objects and arrays.</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://thelukass88.github.io/password-generator/' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${code})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                CBT Application
-              </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
+                <a href='https://github.com/thelukass88/password-generator' target="blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
