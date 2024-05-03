@@ -1,4 +1,5 @@
 import React from "react";
+import { Reveal } from "./Snazzy";
 
 const About = () => { 
   return (
@@ -19,12 +20,15 @@ const About = () => {
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
+              <Reveal>
               <p>
                 Hi. I'm <em>Luke Holliday</em>. <br></br>It's nice to meet you.<br></br> I'm glad you're here! <br></br>Please, take a
                 look around.
               </p>
+              </Reveal>
             </div>
             <div>
+              <Reveal>
               <p>
                 {" "}
                 A software developer with experience in building Responsive and
@@ -36,6 +40,7 @@ const About = () => {
                 In addition to software development, I have over a decade of 
                 teaching experience with a specialism in essay writing.
               </p>
+              </Reveal>
             </div>
           </div>
         </div>

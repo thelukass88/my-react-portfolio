@@ -1,29 +1,35 @@
 import React from 'react';
-import code from '../assets/code2.png';
 import shakespeers from '../assets/shakespeers.png';
 import thingstodo from '../assets/thingstodo.png';
 import passwordgen from '../assets/8characters.png';
 import codequiz from '../assets/question-examples-1.png';
 import readmegen from '../assets/readmegen.png';
 import dayplanner from '../assets/plannertop.png';
+import { Reveal } from '../components/Snazzy';
 
 const Works = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-green-100 '>
       <div className='max-w-[1000px] mx-auto p-4 bg-green-100 flex flex-col justify-center w-full h-full'>
         <div className='py-16 pb-8 w-full mb-2 rounded-md bg-cyan-800 flex justify-center items-center flex-col'>
+          <Reveal>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-cyan-500'>
             Work
           </p>
+          </Reveal>
+          <Reveal>
           <p className='py-6 text-2xl'>Check out some of my recent work/ projects.</p>
+          </Reveal>
         </div>
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* Grid Item */}
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${shakespeers})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
+          
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
@@ -44,6 +50,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${thingstodo})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -68,6 +76,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${dayplanner})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -92,6 +102,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${readmegen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -118,6 +130,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${codequiz})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -142,6 +156,8 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
+          <Reveal>
           <div
             style={{ backgroundImage: `url(${passwordgen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -166,6 +182,7 @@ const Works = () => {
               </div>
             </div>
           </div>
+          </Reveal>
           
         </div>
       </div>

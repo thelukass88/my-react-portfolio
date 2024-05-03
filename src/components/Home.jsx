@@ -2,6 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import profile from "../assets/profile.png";
 import { Link } from "react-scroll"; 
+import { Reveal } from "./Snazzy";
 
 const Home = () => {
   return (
@@ -11,14 +12,18 @@ const Home = () => {
   >
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
+        <Reveal>
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
           <em>Hello there!</em><br></br>
           I'm Luke.<br></br>
           Welcome to my portfolio.
         </h2>
+        </Reveal>
+        <Reveal>
         <p className="text-gray-500 py-4 max-w-md">
            I'm an aspiring front-end web developer with a passion for learning as much as I possibly can. Check out my portfolio to see what I've learned and how I've applied it. 
         </p>
+        </Reveal>
         <div>
           <Link
             to="about"
@@ -34,11 +39,13 @@ const Home = () => {
         </div>
       </div>
       <div>
+        <Reveal>
         <img
           src={profile}  
           alt="my profile"
           className="rounded-2xl mx-auto w-2/3 md:w-full"
         />
+        </Reveal>
       </div>
     </div>
   </div>
