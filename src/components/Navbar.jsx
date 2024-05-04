@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <h1 className=' font-thin text-2xl italic font-serif'>TB</h1>
+        <h1 className=' font-thin text-2xl italic font-serif'>.</h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
@@ -112,7 +112,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='l.holliday88@hotmail.com'
+              href='mailto:l.holliday88@hotmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/thelukass88/Resume-L-Holliday'
+              href='https://docs.google.com/document/d/18b6FHHyLVeyDla9ghbqF9Dm14mWcXNy4GJVO5Le98YY/edit?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
