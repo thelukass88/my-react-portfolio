@@ -4,10 +4,10 @@ import { Reveal } from './Snazzy';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full h-100% bg-[#0a192f] mx-20px text-gray-300 pt-50px pb-25px'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-100%'>
-          <div className=' w-full flex justify-center items-center flex-col mb-7'>
+          <div className=' w-full flex justify-center items-center flex-col mb-7 mt-8'>
             <Reveal>
               <p className='text-4xl font-bold inline border-b-4 border-cyan-500 text-center '>Skills</p>
               </Reveal>
