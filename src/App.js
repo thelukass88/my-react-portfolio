@@ -14,7 +14,6 @@ function App() {
       <About />
       <Skills />
       <Works />
-      {/* <Snazzy /> */}
       <Contact />
     </div>
   );

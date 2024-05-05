@@ -11,7 +11,7 @@ const Home = () => {
     className="h-screen w-full bg-[#0a192f]"
   >
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className="flex flex-col justify-center h-full">
+      <div className="flex flex-col justify-center h-100%">
         <Reveal>
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
           <em>Hello there!</em><br></br>

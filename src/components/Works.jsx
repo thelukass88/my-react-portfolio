@@ -18,7 +18,7 @@ const Works = () => {
           </p>
           </Reveal>
           <Reveal>
-          <p className='py-6 text-2xl'>Check out some of my recent work/ projects.</p>
+          <p className='py-6 text-2xl text-center'>Check out some of my recent work/ projects.</p>
           </Reveal>
         </div>
 {/* Container */}
