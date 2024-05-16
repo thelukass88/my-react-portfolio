@@ -1,10 +1,10 @@
 import React from 'react';
 import shakespeers from '../assets/shakespeers.png';
 import thingstodo from '../assets/thingstodo.png';
-import passwordgen from '../assets/8characters.png';
-import codequiz from '../assets/question-examples-1.png';
+import passwordgen from '../assets/passwordgen.png';
+import codequiz from '../assets/codequiz.png';
 import readmegen from '../assets/readmegen.png';
-import dayplanner from '../assets/plannertop.png';
+import dayplanner from '../assets/dayplanner.png';
 import { Reveal } from '../components/Snazzy';
 
 const Works = () => {
