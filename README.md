@@ -1,24 +1,33 @@
-# build-react-portfolio
-Building a Portfolio Website with React and ButterCMS
-
-## Important Notice
-This project was created as an example use case of ButterCMS in conjunction with a blog article, [https://buttercms.com/blog/build-a-portfolio-website-with-react/](https://buttercms.com/blog/build-a-portfolio-website-with-react/), and will not be actively maintained. 
-
-If you’re interested in exploring the best, most up-to-date way to integrate Butter into frameworks like React, you can check out the following resources:
+# React Portfolio - Luke Holliday
+![Github licence](https://img.shields.io/badge/your_licence:-MIT-blue.svg)
 
 ## Deployed Link:
 
-l-holliday-portfolio.netlify.app
+https://l-holliday-portfolio.netlify.app
 
-### Starter Projects
-
-The following turn-key starters are fully integrated with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
-- [React Starter](https://buttercms.com/starters/react-starter-project/)
-- [Angular Starter](https://buttercms.com/starters/angular-starter-project/)
-- [Vue.js Starter](https://buttercms.com/starters/vuejs-starter-project/)
-- Or see a list of all our [currently-maintained starters](https://buttercms.com/starters/). (Over a dozen and counting!)
-
-### Other Resources
-- Check out the [official ButterCMS Docs](https://buttercms.com/docs/)
-- Check out the [official ButterCMS API docs](https://buttercms.com/docs/api/)
+## Description
+Welcome to my first Portfolio page. This page has been built using React, as well as a number of npm packages and TailwindCSS to demonstrate my learning to date.
+## Table of Contents
+* [Installation](#installation)
+* [Useage](#useage)
+* [Licence](#licence)
+* [Contributions](#contributors)
+* [Testing](#tests)
+* [Questions](#questions)
+## Installation
+N/A
+## Useage
+Regular updates to deployed sites will be made. Check back for current projects.
+## Licence
+Your application is licenced under: MIT
+## Packages
+NPM Scroll
+NPM Framer-Motion
+NPM Nodemon
+## Tests
+N/A
+## Questions
+If you would like to contact me<br>
+visit: [github/thelukass88](https://github.com/thelukass88)<br>
+email: l.holliday88@hotmail.com
 
